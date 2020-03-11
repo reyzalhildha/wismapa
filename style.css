@@ -1,0 +1,142 @@
+body {
+	background-color: darkslategrey;
+}
+.form-register {
+
+}
+.container {
+	color: white;
+	position: relative;
+	border: 2px solid red;
+	width: 30%;
+	top: 50px;
+	padding: 20px;
+	background-color: grey;
+	border-radius: 30px;
+}
+* {
+	box-sizing: border-box;
+}
+label {
+	
+}
+.gender, input[type=radio], p {
+	width: 40%;
+	float: center;
+	
+}
+input[type=text], select, textarea {
+  	width: 100%;
+  	padding: 4px;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+input[type=password], select, textarea {
+  	width: 100%;
+  	padding: 4px;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+input[type=date] {
+  	width: 100%;
+  	padding: 4px;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+input[type=submit],[type=reset] {
+	color: black;
+	width: 30%;
+	border: 1px solid #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 2em;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+	color: mediumslateblue;
+	transition: .2s all;
+}
+.button {
+  border-radius: 30px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 4px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
